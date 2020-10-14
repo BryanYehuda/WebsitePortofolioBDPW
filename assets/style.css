@@ -1,0 +1,442 @@
+/***************************
+BASE CONFIGURATION
+***************************/
+
+* 
+{
+   box-sizing: border-box;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+html,
+body
+{
+    background-color: #fff;
+    color: #5a5a5a;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+main 
+{
+   padding: 20px;
+   overflow: auto;
+}
+
+footer 
+{
+   padding: 20px;
+   color: white;
+   background-color: #ff6b6b;
+   text-align: center;
+   font-weight: bold;
+}
+
+h2 
+{
+   color: #ff6b6b;
+}
+ 
+h3 
+{
+   color: #ff6b6b;
+}
+
+/***************************
+NAVBAR
+***************************/
+
+nav 
+{
+   background-color: #ff6b6b;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+   min-height: 80px;
+   overflow: hidden;
+}
+
+nav a 
+{
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav a:hover 
+{
+   font-weight: bold;
+}
+
+nav li 
+{
+   display: inline-block;
+   list-style-type: none;
+   margin-right: 20px;
+   float: right;
+}
+
+.hero-text-box
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7fff7;
+}
+
+/***************************
+Profile
+***************************/
+
+.profile header 
+{
+   text-align: center;
+}
+
+.profile img 
+{
+   width: 100%;
+}
+
+.profile a
+{
+   text-decoration: none;
+}
+
+.profile a:link,
+.profile a:visited,
+input[type=submit]
+{
+   display: inline-block;
+   font-weight: 300;
+   text-decoration: none;
+   transition: background-color 0.2s; color: 0.2s; border: 0.2s;
+   color: #000;
+}
+
+.profile a:hover,
+.profile a:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    color: #D72638;
+}
+
+.profile-text
+{
+    text-align: center;
+    font-size: 22px;
+}
+
+.sidebar 
+{
+   display: inline;
+}
+
+/***************************
+CONTENT
+***************************/
+
+.featured-image 
+{
+   width: 100%;
+   max-height: 700px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card 
+{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+#content 
+{
+   float: left;
+   width: 75%;
+   text-align: justify;
+}
+
+aside 
+{
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+.detail
+{
+    font-size: 20px;
+}
+
+/***************************
+BUTTON
+***************************/
+
+.btn:link,
+.btn:visited,
+input[type=submit]
+{
+   display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s; color: 0.2s; border: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]
+{
+    background-color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active
+{
+    background-color: #D72638;
+}
+    
+.btn-full:hover,
+.btn-full:active
+{
+    border: 1px solid #D72638;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active
+{
+    border: 1px solid #D72638;
+    color: #fff;
+}
+
+/***************************
+TABLE
+***************************/
+
+table th
+{
+    text-align: left;
+    font-size: 17px;
+}
+
+table tr
+{
+    text-align: left;
+    font-size: 17px;
+}
+
+/***************************
+PENGHARGAAN
+***************************/
+
+.penghargaan
+{
+    list-style: none;
+    width: 100%;
+}
+
+.penghargaan li
+{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.penghargaan-photo-small
+{
+    width: 100%;
+    max-height: 170px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.penghargaan-photo-big
+{
+    width: 100%;
+    max-height: 200px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.penghargaan-photo-small img
+{
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    transform: scale(1.03);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.penghargaan-photo-big img
+{
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    transform: scale(1.03);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.penghargaan-photo-small img:hover
+{
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.penghargaan-photo-big img:hover
+{
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after
+{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/***************************
+SLIDESHOW
+***************************/
+
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slides 
+{
+  display: none;
+}
+
+.prev, 
+.next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, 
+.next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text 
+{
+  color: #fff;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext 
+{
+  color: #000;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot 
+{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, 
+.dot:hover 
+{
+  background-color: #717171;
+}
+
+
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

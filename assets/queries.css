@@ -1,0 +1,575 @@
+/***************************
+MEDIA QUERY
+***************************/
+
+@media only screen and (max-width: 1295px) 
+{
+    
+    table th
+    {
+        font-size: 15px;
+    }
+    
+    table tr
+    {
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    html,
+    body
+    {
+        font-size: 18px;
+    }
+    
+    .profile-text
+    {
+        font-size: 19px;
+    }
+    
+    .hero-text-box 
+    {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .numbertext
+    {
+        font-size: 15px;
+    }
+    
+    .text
+    {
+        font-size: 20px;
+    }
+    
+    h2
+    {
+        font-size: 25px;
+    }
+    
+    h3
+    {
+        font-size: 23px;
+    }
+    
+    .detail
+    {
+        font-size: 19px;
+    }
+    
+}
+
+@media only screen and (max-width: 1171px) 
+{
+    
+    table th
+    {
+        font-size: 14px;
+    }
+    
+    table tr
+    {
+        font-size: 14px;
+    }
+    
+}
+ 
+@media only screen and (max-width: 1025px) 
+{
+    
+    #content,
+    aside 
+    {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 18px;
+    }
+    
+    .numbertext
+    {
+        font-size: 16px;
+    }
+    
+    .text
+    {
+        font-size: 21px;
+    }
+    
+    h2
+    {
+        font-size: 26px;
+    }
+    
+    h3
+    {
+        font-size: 24px;
+    }
+    
+    .detail
+    {
+        font-size: 20px;
+    }
+    
+     table th
+    {
+        font-size: 18px;
+    }
+    
+    table tr
+    {
+        font-size: 18px;
+    }
+    
+      table.center 
+    {
+        margin-left:auto; 
+        margin-right:auto;
+    }
+    
+    .account h3
+    {
+        text-align: center;
+    }
+    
+    .profile img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+}
+
+@media only screen and (max-width: 770px) 
+{
+    
+    .penghargaan li
+    {
+        width: 50%;
+    }
+    
+    .hero-text-box 
+    {
+        padding 0 4%;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 17px;
+    }
+    
+    .numbertext
+    {
+        font-size: 15px;
+    }
+    
+    .text
+    {
+        font-size: 20px;
+    }
+    
+     h1
+    {
+        font-size: 29px;
+    }
+    
+    h2
+    {
+        font-size: 25px;
+    }
+    
+    h3
+    {
+        font-size: 23px;
+    }
+    
+    .detail
+    {
+        font-size: 19px;
+    }
+    
+     table th
+    {
+        font-size: 17px;
+    }
+    
+    table tr
+    {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 496px) 
+{
+    
+    .detail
+    {
+        font-size: 18px;
+    }
+    
+     table th
+    {
+        font-size: 16px;
+    }
+    
+    table tr
+    {
+        font-size: 16px;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .numbertext
+    {
+        font-size: 14px;
+    }
+    
+    .text
+    {
+        font-size: 19px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 16px;
+    }
+    
+    h1
+    {
+        font-size: 28px;
+    }
+    
+    h2
+    {
+        font-size: 23px;
+    }
+    
+    h3
+    {
+        font-size: 21px;
+    }
+    
+    nav a 
+    {
+        font-size: 14px;
+    }
+    
+    nav 
+    {
+        background-color: #ff6b6b;
+        padding: 5px;
+        position: sticky;
+        top: 0;
+        min-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 444px) 
+{
+    .penghargaan li
+    {
+        width: 100%;
+    }
+    
+    .detail
+    {
+        font-size: 17px;
+    }
+    
+     table th
+    {
+        font-size: 15px;
+    }
+    
+    table tr
+    {
+        font-size: 15px;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 19px;
+    }
+    
+    .numbertext
+    {
+        font-size: 13px;
+    }
+    
+    .text
+    {
+        font-size: 18px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 15px;
+    }
+    
+    h1
+    {
+        font-size: 27px;
+    }
+    
+    h2
+    {
+        font-size: 22px;
+    }
+    
+    h3
+    {
+        font-size: 20px;
+    }
+    
+    nav a 
+    {
+        font-size: 13px;
+    }
+    
+    nav 
+    {
+        min-height: 60px;
+    }
+    
+    .hero-text-box a
+    {
+        font-size: 13px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        padding: 7px 25px;
+    }
+}
+
+@media only screen and (max-width: 396px)
+{
+    nav li
+    {
+        margin-right: 13px;
+    }
+}
+
+@media only screen and (max-width: 369px) 
+{
+    
+    .detail
+    {
+        font-size: 16px;
+    }
+    
+     table th
+    {
+        font-size: 14px;
+    }
+    
+    table tr
+    {
+        font-size: 14px;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 17px;
+    }
+    
+    .numbertext
+    {
+        font-size: 12px;
+    }
+    
+    .text
+    {
+        font-size: 17px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 14px;
+    }
+    
+    h1
+    {
+        font-size: 24px;
+    }
+    
+    h2
+    {
+        font-size: 20px;
+    }
+    
+    h3
+    {
+        font-size: 18px;
+    }
+    
+    nav a 
+    {
+        font-size: 11px;
+    }
+    
+    nav 
+    {
+        padding: 2px;
+        min-height: 50px;
+    }
+    
+    .hero-text-box a
+    {
+        font-size: 13px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        padding: 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 352px)
+{
+    nav li
+    {
+        margin-right: 12px;
+    }
+    
+    .hero-text-box a
+    {
+        font-size: 10px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        padding: 3px 15px;
+    }
+}
+
+@media only screen and (max-width: 321px) /*resolusi HP terkecil menurut google adalah iphone 5 di 320px*/
+{
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        margin-top: 10px;
+        padding: 1px 13px;
+        border-radius: 200px;
+    }
+    
+    .detail
+    {
+        font-size: 15px;
+    }
+    
+     table th
+    {
+        font-size: 13px;
+    }
+    
+    table tr
+    {
+        font-size: 13px;
+    }
+    
+    .profile-text
+    {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .numbertext
+    {
+        font-size: 11px;
+    }
+    
+    .text
+    {
+        font-size: 16px;
+    }
+    
+    html,
+    body
+    {
+        font-size: 13px;
+    }
+    
+    h1
+    {
+        font-size: 22px;
+    }
+    
+    h2
+    {
+        font-size: 18px;
+    }
+    
+    h3
+    {
+        font-size: 16px;
+    }
+    
+    nav li
+    {
+        margin-right: 10px;
+    }
+    
+    nav a 
+    {
+        font-size: 10px;
+    }
+    
+    nav 
+    {
+        min-height: 45px;
+    }
+    
+    .hero-text-box a
+    {
+        font-size: 13px;
+    }
+    
+    .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        padding: 5px 20px;
+    }
+}
